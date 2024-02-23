@@ -9,5 +9,6 @@ lazy val root = project
     libraryDependencies ++= Seq(
       "com.github.ghostdogpr" %% "caliban" % "2.5.1",
       "org.scalameta" %% "munit" % "0.7.29" % Test,
+      "dev.zio" %% "zio" % "2.1-RC1",
     )
   )
