@@ -2,5 +2,5 @@
     "name": "Ubuntu",
     "dockerComposeFile": "docker-compose.yml",
     "service": "app",
-    "workspaceFolder": "/"
+    "workspaceFolder": "/workspace"
 }
