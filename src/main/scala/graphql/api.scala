@@ -9,6 +9,10 @@ import zio._
 object MainApp extends ZIOAppDefault {
   val query = """
     {
+      character(name: "Alice") {
+        name
+        age
+      }
       characters {
         name
       }

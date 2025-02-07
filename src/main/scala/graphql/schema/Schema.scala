@@ -1,6 +1,7 @@
 package graphql.schema
 
-import graphql.schema.types.{Character, getCharacter, getCharacters}
+import graphql.app.types.{Character}
+import graphql.app.repository.{getCharacters, getCharacter}
 
 case class CharacterName(name: String)
 case class Queries(characters: List[Character], character: CharacterName => Option[Character])
